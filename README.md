@@ -25,8 +25,8 @@ This logger implements several ways to write a log. (Console, File, Database)
 - Dependency Injection(Unity)
 
 ## TODO
-- Add a new functionality requesting a web service.
-- Inject dependencies loaded from a Unity.conf.
+- Add a web service consuming.
+- Inject dependencies loaded from a Unity.conf file.
 - Pass destinationType from constructor.
 
 ## Author
