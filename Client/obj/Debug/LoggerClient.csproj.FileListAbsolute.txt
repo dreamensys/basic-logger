@@ -1,0 +1,12 @@
+c:\users\angel-pc\documents\visual studio 2017\Projects\LoggerBusiness\Client\obj\Debug\LoggerClient.csprojResolveAssemblyReference.cache
+c:\users\angel-pc\documents\visual studio 2017\Projects\LoggerBusiness\Client\bin\Debug\Client.exe.config
+c:\users\angel-pc\documents\visual studio 2017\Projects\LoggerBusiness\Client\bin\Debug\Client.exe
+c:\users\angel-pc\documents\visual studio 2017\Projects\LoggerBusiness\Client\bin\Debug\Client.pdb
+c:\users\angel-pc\documents\visual studio 2017\Projects\LoggerBusiness\Client\bin\Debug\LoggerBusiness.dll
+c:\users\angel-pc\documents\visual studio 2017\Projects\LoggerBusiness\Client\bin\Debug\LoggerBusiness.pdb
+c:\users\angel-pc\documents\visual studio 2017\Projects\LoggerBusiness\Client\obj\Debug\Client.exe
+c:\users\angel-pc\documents\visual studio 2017\Projects\LoggerBusiness\Client\obj\Debug\Client.pdb
+c:\users\angel-pc\documents\visual studio 2017\Projects\LoggerBusiness\Client\bin\Debug\Unity.Abstractions.dll
+c:\users\angel-pc\documents\visual studio 2017\Projects\LoggerBusiness\Client\bin\Debug\Unity.Container.dll
+c:\users\angel-pc\documents\visual studio 2017\Projects\LoggerBusiness\Client\bin\Debug\Unity.Abstractions.pdb
+c:\users\angel-pc\documents\visual studio 2017\Projects\LoggerBusiness\Client\bin\Debug\Unity.Container.pdb
