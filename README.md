@@ -20,9 +20,9 @@ This logger implements several ways to write a log. (Console, File, Database)
 - Strategy Pattern
 - Abstract Factory Pattern
 - Inversion of Control
-- Unity
 - Singleton Pattern
 - NUnit
+- Dependency Injection(Unity)
 
 ## TODO
 - Add a new functionality requesting a web service.
