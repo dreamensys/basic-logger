@@ -27,6 +27,7 @@ This logger implements several ways to write a log. (Console, File, Database)
 ## TODO
 - Add a new functionality requesting a web service.
 - Inject dependencies loaded from a Unity.conf.
+- Pass destinationType from constructor.
 
 ## Author
 Angel Soto
