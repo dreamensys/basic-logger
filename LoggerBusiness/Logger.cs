@@ -9,23 +9,25 @@ namespace LoggerBusiness
 {
     public class Logger : ILogger
     {
-        Dictionary<string, IDestinationStrategy> destinationDictionary = new Dictionary<string, IDestinationStrategy>()
-        {
-            { DestinationTypes.Console, ConsoleDestinationFactory.Resolve<IDestinationStrategy>()},
-            { DestinationTypes.File,FileDestinationFactory.Resolve<IDestinationStrategy>() },
-            { DestinationTypes.DataBase,  DataBaseDestinationFactory.Resolve<IDestinationStrategy>() }
-
-        };
+        private Dictionary<string, IDestinationStrategy> _destinationDictionary;
         private IDestinationStrategy _destinationStrategy;
-        public Logger()
+        public Logger(Dictionary<string, IDestinationStrategy> destination, string destinationType)
         {
-            string destinationKey = System.Configuration.ConfigurationManager.AppSettings["DestinationType"];
-            if (string.IsNullOrEmpty(destinationKey))
+            _destinationDictionary = destination;
+
+            if (string.IsNullOrEmpty(destinationType))
             {
-                destinationKey = DestinationTypes.Console;
+                if (string.IsNullOrEmpty(System.Configuration.ConfigurationManager.AppSettings["DestinationType"]))
+                {
+                    destinationType = DestinationTypes.Console;
+                }
+                else
+                {
+                    destinationType = DestinationTypes.Console;
+                }
             }
 
-            _destinationStrategy = destinationDictionary[destinationKey];           
+            _destinationStrategy = _destinationDictionary[destinationType];           
         }
 
         public void LogMessage(string message)

@@ -13,10 +13,8 @@ namespace Client
     {
         static void Main(string[] args)
         {
-
-            //ILogger log = IoCFactory
+            
             ILogger log = LoggerFactory.Resolve<ILogger>();
-
             
             // Log Message
             string loggedMessage = "Logging a Message";

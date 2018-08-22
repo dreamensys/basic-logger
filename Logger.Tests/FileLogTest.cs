@@ -1,5 +1,4 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace Logger.Tests
 {
@@ -7,10 +6,19 @@ namespace Logger.Tests
     public class FileLogTest
     {
         [Test]
-        public void TestMethod1()
+        public void LogFileError()
         {
-            bool result = true;
-            Assert.That(result, Is.True);
+            
+        }
+        [Test]
+        public void LogFileWarning()
+        {
+
+        }
+        [Test]
+        public void LogFileMessage()
+        {
+
         }
     }
 }
