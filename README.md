@@ -23,6 +23,8 @@ This logger implements several ways to write a log. (Console, File, Database)
 - Singleton Pattern
 - NUnit
 - Dependency Injection(Unity)
+- Repository Pattern
+- Domain Driven Desing
 
 ## TODO
 - Add a web service consuming.
